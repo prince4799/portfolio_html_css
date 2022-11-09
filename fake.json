@@ -1,0 +1,20 @@
+{
+    "AdbEnabled": [Function AdbEnabled
+    ],
+    "canMockLocation": [Function canMockLocation
+    ],
+    "hookDetected": [Function hookDetected
+    ],
+    "isDebuggedMode": [Function isDebuggedMode
+    ],
+    "isDevelopmentSettingsMode": [Function isDevelopmentSettingsMode
+    ],
+    "isJailBroken": [Function isJailBroken
+    ],
+    "isOnExternalStorage": [Function isOnExternalStorage
+    ],
+    "jailBrokenMessage": [Function jailBrokenMessage
+    ],
+    "trustFall": [Function trustFall
+    ]
+}
