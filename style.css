@@ -38,17 +38,53 @@ body {
 }
 
 .about{
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
+    display: inline-block;
+    width: 100%;
     /* background-color: aquamarine; */
 }
 
-.about p{
-    font-size: 35px;
-    padding-left: 90px;
+.aboutHead{
+    width: 30%;
     /* background-color: red; */
+    float: left;
+    text-align: left;
+    position: relative;
 }
 
+
+.aboutHead:before {
+    content: "";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 16px;
+    right: -48px;
+    background: black;
+}
+
+.aboutHead p{
+    color: rgb(108 101 101);
+    float: left;
+    font-size: 26px;
+    margin-left: 110px;
+}
+.about p::after {
+    content: "";
+    clear: both;
+    display: table;
+    border-color: rgb(108 101 101);;
+  }
+/* .about pre{
+    width: 30%;
+    float: left;
+} */
+/* .colon{
+width:10%;
+height: 20px;
+background-color: blue;
+} */
 .right p {
     color: rgb(49, 47, 47);
     margin: 0% 0 0 13%;
@@ -73,4 +109,32 @@ body {
 .topbar div.right {
     width: 70%;
 
+}
+
+.aboutDetails{
+    width: 55%;
+    height: 100%;
+    /* align-self: flex-end; */
+    float: right;
+    margin-right: 40px;
+    color:rgb(107, 107, 104); ;
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+    margin-inline: 10px;
+
+}
+
+.contentleft {
+    background-color: blue;
+    width:30%;
+    height:100%;
+}
+.contentright {
+    background-color: rgb(58, 58, 187);
+    width: 67%;
+    height: 100%;
 }

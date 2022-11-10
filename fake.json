@@ -1,20 +1,11 @@
 {
-    "AdbEnabled": [Function AdbEnabled
-    ],
-    "canMockLocation": [Function canMockLocation
-    ],
-    "hookDetected": [Function hookDetected
-    ],
-    "isDebuggedMode": [Function isDebuggedMode
-    ],
-    "isDevelopmentSettingsMode": [Function isDevelopmentSettingsMode
-    ],
-    "isJailBroken": [Function isJailBroken
-    ],
-    "isOnExternalStorage": [Function isOnExternalStorage
-    ],
-    "jailBrokenMessage": [Function jailBrokenMessage
-    ],
-    "trustFall": [Function trustFall
-    ]
+"URL":"   https: //ataljal.kreatetechnologies.com/api/count/countpop?",
+"URL":"   https: //ataljal.kreatetechnologies.com/api/count/countrain?",
+"URL":" https: //ataljal.kreatetechnologies.com/api/count/countarea?}",
+"URL":" https: //ataljal.kreatetechnologies.com/api/count/Major_rock_count?",
+"URL":" https: //ataljal.kreatetechnologies.com/api/count/existARS?}",
+"URL":" https: //ataljal.kreatetechnologies.com/api/count/countwell?",
+"url":" https: //ataljal.kreatetechnologies.com/api/pv_quality/pv_quality_read?",
+"url":" https: //ataljal.kreatetechnologies.com/api/pv_water_condition/pv_water_condition_read?",
+"url":" https: //ataljal.kreatetechnologies.com/api/getgwmstnlist?",
 }
