@@ -37,7 +37,7 @@ body {
 
 }
 
-.about{
+.about {
     /* display: flex; */
     flex-direction: row;
     display: inline-block;
@@ -45,7 +45,7 @@ body {
     /* background-color: aquamarine; */
 }
 
-.aboutHead{
+.aboutHead {
     width: 30%;
     /* background-color: red; */
     float: left;
@@ -64,18 +64,21 @@ body {
     background: black;
 }
 
-.aboutHead p{
+.aboutHead p {
     color: rgb(108 101 101);
     float: left;
     font-size: 26px;
-    margin-left: 110px;
+    margin-left: 85px;
 }
+
 .about p::after {
     content: "";
     clear: both;
     display: table;
-    border-color: rgb(108 101 101);;
-  }
+    border-color: rgb(108 101 101);
+    ;
+}
+
 /* .about pre{
     width: 30%;
     float: left;
@@ -111,30 +114,66 @@ background-color: blue;
 
 }
 
-.aboutDetails{
+.aboutDetails {
     width: 55%;
     height: 100%;
     /* align-self: flex-end; */
     float: right;
     margin-right: 40px;
-    color:rgb(107, 107, 104); ;
+    color: rgb(107, 107, 104);
 }
 
-.content{
-    display:flex;
-    flex-direction:row;
-    padding:10px;
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
     margin-inline: 10px;
+    height:80%
 
 }
 
 .contentleft {
-    background-color: blue;
-    width:30%;
-    height:100%;
+    /* background-image: linear-gradient(to left, #fdffff, #cfcfc8); */
+    width: 30%;
+    height: 100%;
 }
+
 .contentright {
-    background-color: rgb(58, 58, 187);
+    /* background-image: linear-gradient(to right, #fdffff, #cfcfc8); */
     width: 67%;
     height: 100%;
+}
+
+.contentleft p {
+    margin: 15px;
+    color: rgb(107, 107, 104);
+}
+
+.contentleft h2 {
+    /* margin: 15px; */
+    margin: 25px 0 25px 10px ;
+    color: rgb(54, 54, 48);
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.contentleft h3 {
+    margin: 15px;
+    color: rgb(54, 54, 48);
+}
+
+.partition{
+    height:100%;
+    width:3px;
+    background-color: black;
+}
+
+.contentright h2 {
+    margin: -35px 0 25px -5px ;
+    color: rgb(54, 54, 48);
+    font-family:'Josefin Sans', sans-serif;
+}
+.contentright h3 {
+    margin: 15px ;
+    color: rgb(54, 54, 48);
+    font-family:'Josefin Sans', sans-serif;
 }
